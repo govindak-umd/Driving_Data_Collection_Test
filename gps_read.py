@@ -12,7 +12,7 @@ from utils import test_name
 
 # For Windows
 
-ser = serial.Serial('COM11')
+ser = serial.Serial('COM13')
 
 ser.baudrate = 9600
 
