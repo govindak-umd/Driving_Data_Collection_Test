@@ -4,7 +4,6 @@ from utils import test_name
 # Read the gps file coordinates
 
 converted_gps_file = open(test_name + "gps_to_xy" + ".txt", "r")
-# converted_gps_file = open("sample_5.txt", "r")
 saved_imu_file = open(test_name + "quaternion_data" + ".txt", "r")
 
 gps_lines = 0
@@ -75,4 +74,5 @@ for line in gps_data_read.split("\n"):
         last_z.append(z)
         new_interpolated_gps_file.write(str(x) + ' ' + str(y) + ' ' + str(z) + "\n")
         line_count += 1
+new_interpolated_gps_file.close()
 print("Interpolated file written : " + test_name + "INTERPOLATED_gps_data" + ".txt")
