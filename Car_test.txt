@@ -13,7 +13,7 @@ IMU Data:
 	Ensure correct code is flashed onto the micro-controller
 	Run anaconda as admin
 
-	Delete quarternion_data.txt
+	Delete quaternion_data.txt
 	python save_tum_file.py
 
 GPS:
