@@ -1,0 +1,24 @@
+# Steps to follow today while recording the data in the vehicle.
+
+Three scripts to run:
+
+Video Capture:
+
+	conda activate tf_env1
+	python capture_video.py
+
+IMU Data:
+
+	Check for COM Ports
+	Ensure correct code is flashed onto the micro-controller
+	Run anaconda as admin
+
+	Delete quarternion_data.txt
+	python save_tum_file.py
+
+GPS:
+
+	Check for COM Ports
+	Run anaconda as admin
+	Ensure correct code is flashed onto the micro-controller
+	python gps_read.py
