@@ -74,8 +74,9 @@ The obtained plots are shown below:
 
 | Serial Number| Code  | Function | Arduino Code Flashed |
 | ------------- | ------------- | ------------- |------------- |
-| 1 |  capture_video.py| To capture the video |- |
-| 2 |  save_tum_file.py| To save the IMU Data in quaternion format the video | IMU_QUATERNION |
-| 3 |  gps_read.py| To read the GPS Data | GPS_LONGITUDE_LATITUDE_TEST |
-| 4 |  global_gps2xy.py| To convert the raw GPS data from Text file to XY Coordinates |- |
-| 5 | utils.py | Contains utility variables | - |
+| 1 |  *capture_video.py*| To capture the video |- |
+| 2 |  *save_tum_file.py*| To save the IMU Data in quaternion format the video | IMU_QUATERNION |
+| 3 |  *gps_read.py*| To read the GPS Data | GPS_LONGITUDE_LATITUDE_TEST |
+| 4 |  *global_gps2xy.py*| To convert the raw GPS data from Text file to XY Coordinates |- |
+| 5 | *Interpolate_GPS.py*| To interpolate the GPS Data to match with IMU Data lines |- |
+| 7 | *utils.py* | Contains utility variables | - |
