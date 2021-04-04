@@ -80,3 +80,7 @@ The obtained plots are shown below:
 | 4 |  *global_gps2xy.py*| To convert the raw GPS data from Text file to XY Coordinates |- |
 | 5 | *Interpolate_GPS.py*| To interpolate the GPS Data to match with IMU Data lines |- |
 | 7 | *utils.py* | Contains utility variables | - |
+
+The TUM format files can be run using the command
+
+        evo_traj tum Test_3_TUM_FORMAT.txt --plot_mode xz --plot
