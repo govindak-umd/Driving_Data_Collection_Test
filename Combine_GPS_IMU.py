@@ -29,11 +29,14 @@ for line in imu_data_read.split("\n"):
 
 # Writes the TUM File with combined GPS and IMU Data
 tum_file = open(test_name + "TUM_FORMAT" + ".txt", "w+")
+
+dummy_time = 0.0
 for i in range(len(gps_data)):
     tum_file.write(
-        str(imu_data[i][0]) + ' ' + str(gps_data[i][0]) + ' ' + str(gps_data[i][1]) + ' ' + str(gps_data[i][2]) + ' ' \
+        str(dummy_time) + ' ' + str(gps_data[i][0]) + ' ' + str(gps_data[i][1]) + ' ' + str(gps_data[i][2]) + ' ' \
         + str(imu_data[i][1]) + ' ' + str(imu_data[i][2]) + ' ' + str(imu_data[i][3]) + ' ' + str(
             imu_data[i][4]) + "\n")
+    dummy_time+=0.2
 saved_imu_file.close()
 new_interpolated_gps_file.close()
 tum_file.close()
