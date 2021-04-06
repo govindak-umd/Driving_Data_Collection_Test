@@ -12,7 +12,9 @@ Attach the camera to face forwards in such an angle as to grab features
 #### Video Capture:
 
         conda activate tf_env1
-        python capture_video.py
+        python capture_video.py (WINDOWS)
+        python capture_video_linux.py (UBUNTU 18.04)
+
 
 #### IMU Data:
 
