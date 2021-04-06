@@ -19,5 +19,5 @@ for line in gps_file:
     y_list.append(y_coord)
 
 plt.plot(x_list, y_list)
-# plt.savefig('Images/'+ str(test_name) + 'plot.png')
-plt.show()
+plt.savefig('Images/'+ str(test_name) + 'plot.png')
+# plt.show()

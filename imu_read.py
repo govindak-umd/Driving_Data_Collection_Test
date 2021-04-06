@@ -13,11 +13,11 @@ from utils import test_name
 
 # For Linux systems
 
-ser = serial.Serial('/dev/ttyUSB1')
+# ser = serial.Serial('/dev/ttyUSB1')
 
 # For Windows
 
-# ser = serial.Serial('COM3')
+ser = serial.Serial('COM12')
 
 ser.baudrate = 9600
 

@@ -12,8 +12,8 @@ Attach the camera to face forwards in such an angle as to grab features
 #### Video Capture:
 
         conda activate tf_env1
-        python capture_video.py (WINDOWS)
-        python capture_video_linux.py (UBUNTU 18.04)
+        python capture_video.py (Windows)
+        python capture_video_linux.py (Linux)
 
 
 #### IMU Data:
@@ -67,18 +67,10 @@ Camera Setup
 
 ## Obtained Graphs
 
-The obtained plots are shown below:
+One of the obtained plot is shown below:
 
 <p align="center">
   <img height="500" src="Images/Test_1_plot.png">
-</p>
-
-<p align="center">
-  <img height="500" src="Images/Test_2_plot.png">
-</p>
-
-<p align="center">
-  <img height="500" src="Images/Test_3_plot.png">
 </p>
 
 
@@ -93,7 +85,12 @@ The obtained plots are shown below:
 | 5 |  *gps_read.py*| To read the GPS Data | GPS_LONGITUDE_LATITUDE_TEST |
 | 6 |  *global_gps2xy.py*| To convert the raw GPS data from Text file to XY Coordinates |- |
 | 7 | *Interpolate_GPS.py*| To interpolate the GPS Data to match with IMU Data lines |- |
+| 8 | *plot_gps_xy.py*| To plot the gps to get the map |- |
 | 8 | *utils.py* | Contains utility variables | - |
+
+The order to run these files ```on Windows``` would be 1->3-> 5->6->7->8.
+
+The order to run these files ```on Linux``` would be 2-> 3-> 5->6->7->8.
 
 The TUM format files can be run using the command
 

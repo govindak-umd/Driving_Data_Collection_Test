@@ -2,7 +2,7 @@ import cv2
 import time
 from utils import test_name
 
-capture = cv2.VideoCapture(0)
+capture = cv2.VideoCapture(1)
 fourcc = cv2.VideoWriter_fourcc('X','V','I','D')
 videoWriter = cv2.VideoWriter(test_name + 'video' +'.avi', fourcc, 20.0, (640,480))
 print('Capturing Video now ...')
@@ -12,7 +12,7 @@ try:
         ret, frame = capture.read()
 
         if ret:
-            cv2.imshow('video', frame)
+            # cv2.imshow('video', frame)
             videoWriter.write(frame)
 
         if cv2.waitKey(1) == 27:
