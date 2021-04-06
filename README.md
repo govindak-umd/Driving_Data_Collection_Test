@@ -16,17 +16,23 @@ Attach the camera to face forwards in such an angle as to grab features
 
 #### IMU Data:
 
-- Check for COM Ports
+- Check for ```COM Ports``` (Windows), or ```/dev/tty``` ports on Linux.
 - Ensure correct code is flashed onto the micro-controller
-- Run anaconda as admin
+- If on Windows, Run anaconda as admin. On Linux, make the port executable by typing the following:
+        
+        sudo chmod a+rw /dev/ttyUSB0 
+
 - Enter the respective test number in utils.py
 
         python save_tum_file.py
 
 #### GPS:
 
-- Check for COM Ports
-- Run anaconda as admin
+- Check for ```COM Ports``` (Windows), or ```/dev/tty``` ports on Linux.
+- If on Windows, Run anaconda as admin. On Linux, make the port executable by typing the following:
+        
+        sudo chmod a+rw /dev/ttyUSB0 
+        
 - Ensure correct code is flashed onto the micro-controller
 - Enter the respective test number in utils.py
 
