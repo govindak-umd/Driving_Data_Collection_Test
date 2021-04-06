@@ -12,11 +12,11 @@ from utils import test_name
 
 # For Windows
 
-ser = serial.Serial('COM13')
+ser = serial.Serial('COM12')
 
 ser.baudrate = 9600
 
-f= open(test_name +"gps_data.txt","w+")
+f = open(test_name + "gps_data.txt", "w+")
 
 try:
 
@@ -32,38 +32,35 @@ try:
         # parsing points
 
         if data_code == 'Lat':
-
             lat_data = ((imu_data.split(': ')[1]).split('\r\n'))[0]
-            f.write(str(lat_data)+' ')
+            f.write(str(lat_data) + ' ')
             print(lat_data)
 
         # Getting the Longitude data and split it at the right
         # parsing points
-        
-        if data_code == 'Lon':
 
+        if data_code == 'Lon':
             lon_data = ((imu_data.split(': ')[1]).split('\r\n'))[0]
-            f.write(str(lon_data)+' ')
+            f.write(str(lon_data) + ' ')
             print(lon_data)
 
         # Getting the Altitude data and split it at the right
         # parsing points
-        
-        if data_code == 'Alt':
 
+        if data_code == 'Alt':
             alt_data = ((imu_data.split(': ')[1]).split('\r\n'))[0]
-            f.write(str(alt_data)+' ')
+            f.write(str(alt_data) + ' ')
             print(alt_data)
-        
+
         # Getting the TimeStamp data and split it at the right
         # parsing points
-        
+
         if data_code == 'Tim':
 
             tim_data = ((imu_data.split(': ')[1]).split('\r\n'))[0]
             f.write(str(tim_data) + " \n")
             print(tim_data)
-        
+
         else:
 
             print('Waiting for Lock .. ')

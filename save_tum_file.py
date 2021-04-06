@@ -17,7 +17,7 @@ from utils import test_name
 
 # For Windows
 
-ser = serial.Serial('COM14')
+ser = serial.Serial('COM3')
 
 ser.baudrate = 9600
 
