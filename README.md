@@ -28,7 +28,7 @@ Attach the camera to face forwards in such an angle as to grab features
 
 - Enter the respective test number in utils.py
 
-        python save_tum_file.py
+        python imu_read.py
 
 #### GPS:
 
