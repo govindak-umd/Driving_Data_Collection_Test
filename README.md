@@ -70,7 +70,7 @@ Camera Setup
 One of the obtained plot is shown below:
 
 <p align="center">
-  <img height="500" src="Images/Test_1_plot.png">
+  <img height="500" src="Images/Test_3_plot.png">
 </p>
 
 
