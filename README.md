@@ -68,7 +68,7 @@ Camera Setup
 Robot in a field, collecting the same data
 
 <p align="center">
-  <img height="500" src="Images/robot_Drive.jpg">
+  <img height="500" src="Images/robot_Drive.jpeg">
 </p>
 
 Electrical Connections
