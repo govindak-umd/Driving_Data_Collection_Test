@@ -1,5 +1,5 @@
 # Driving_Data_Collection_Test
-This repository shows how to get combined IMU, GPS, and Video data for ORB-SLAM2 verification testing
+This repository shows how to get combined IMU, GPS, and Video data for ORB-SLAM2 and ORB-SLAM3 verification testing
 
 ## Steps to run
 
@@ -63,6 +63,18 @@ Camera Setup
 
 <p align="center">
   <img height="500" src="Images/car_img_5.jpeg">
+</p>
+
+Robot in a field, collecting the same data
+
+<p align="center">
+  <img height="500" src="Images/robot_Drive.jpg">
+</p>
+
+Electrical Connections
+
+<p align="center">
+  <img height="500" src="Images/Electrical_Connections.png">
 </p>
 
 ## Obtained Graphs
