@@ -5,7 +5,7 @@ This repository shows how to get combined IMU, GPS, and Video data for ORB-SLAM2
 
 Attach the ```IMU +  GPS``` Module onto the vehicle as shown below:
 
-Attach the camera to face forwards in such an angle as to grab features
+Attach the camera to face forwards in such an angle as to grab maximum features
 
 ### There are three main scripts to run:
 
