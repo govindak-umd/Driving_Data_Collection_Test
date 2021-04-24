@@ -15,7 +15,6 @@ Attach the camera to face forwards in such an angle as to grab maximum features
         python capture_video.py (Windows)
         python capture_video_linux.py (Linux)
 
-
 #### IMU Data:
 
 - Check for ```COM Ports``` (Windows), or ```/dev/tty``` ports on Linux.
