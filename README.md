@@ -47,7 +47,7 @@ Attach the camera to face forwards in such an angle as to grab maximum features
 
 The setup is shown below:
 
-IMU and GPS Setup
+## IMU and GPS Setup
 
 <p align="center">
   <img height="500" src="Images/car_img_2.jpeg">
@@ -58,7 +58,7 @@ IMU and GPS Setup
   <img height="500" src="Images/car_img_3.jpeg">
 </p>
 
-Camera Setup
+## Camera Setup
 
 <p align="center">
   <img height="500" src="Images/car_img_5.jpeg">
@@ -70,7 +70,7 @@ Robot in a field, collecting the same data
   <img height="500" src="Images/robot_drive.jpg">
 </p>
 
-Electrical Connections
+## Electrical Connections
 
 <p align="center">
   <img height="500" src="Images/Electrical_Connections.png">
